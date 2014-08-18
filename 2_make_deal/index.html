@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Make Deal</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Choose the Awesome Door</h1>
+    <div class="desc_container">
+      <h3 id="deal_desc">Below are three closed doors.<br/> Behind <strong>one</strong> of these doors is a really AWESOME thing. <br/> While behind <strong>two</strong> of these doors are <em>horrible</em> things.</h3>
+      <h3 id="choose_h3">Which door will you choose?</h3>
+    </div>
+  </header>
+  <section>
+    <div id="doors" class="img_wrapper">
+      <img id="door1" data-door="1" src="img/door1.jpeg">
+      <img id="door2" data-door="2" src="img/door2.jpeg">
+      <img id="door3" data-door="3" src="img/door3.jpeg">
+    </div>
+  </section>
+  <div id="button_container">   
+    <button id="play_again">Play again?</button> 
+  </div>  
+  
+
+  <script type="text/javascript" src="js/vendor/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/make_deal.v2.js"></script>
+</body>
+</html>

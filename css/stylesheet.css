@@ -1,0 +1,21 @@
+body {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	background-color: black;
+}
+
+.words {
+	color: white;
+	font-family: Futura;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+	margin: 20px;
+}
+
